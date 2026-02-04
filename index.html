@@ -10,10 +10,10 @@
     <div class="container">
         <h1>Generate a <br> <span>Random Password</span></h1>
         <div class="password">
-            <input type="text" placeholder="Password">
-            <img src="/images/copy.png" alt="copy icon" >
+            <input type="text" id="password" placeholder="Password">
+            <img onclick="copyPassword()" src="/images/copy.png" alt="copy icon" >
         </div>
-        <button><img src="images/generate.png" alt="thunder icon"> Generate Password</button>
+        <button onclick="createPassword()"><img src="images/generate.png" alt="thunder icon"> Generate Password</button>
     </div> 
     <script src="app.js"></script>
 </body>
